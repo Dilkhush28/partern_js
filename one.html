@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Start Partern</title>
+    <style>
+        h1{
+        font-size: xx-large;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>pattern</h1>
+</body>
+<script>
+    //1st 
+     /* print hoga
+       ***
+       ***
+       ***
+       ***
+       *** */
+    let Partern = "";
+    //     for(let i =1; i<=5; i++){
+    //    for(let j=1; j<=3; j++){
+    //     document.write("*")
+    //    }
+    //    document.write("<br/>")
+    //     }
+   
+
+    //2nd 
+    /* print hoga
+    *
+    **
+    ***
+    ****
+    ***** 
+    */
+    // for(let i= 1; i<=5; i++){
+    //     for(let j=1; j<=i; j++){
+    //     document.write("*")
+    // }
+    // document.write('<br/>')
+    // }
+    
+    //3rd 
+/* output
+    ----*
+    ---**
+    --***
+    -****
+    *****
+    
+    */
+    // let i,j,k;
+
+    // for(i=1; i<=5; i++){
+    //     for(k=1; k<=5-i; k++){
+    //         document.write("-")
+    //     }
+    //     for(j=1; j<=i; j++){
+    //         document.write('*')
+    //     }
+    //         document.write('<br/>')
+    // }
+    
+
+
+    // 4th 
+     /*  
+     1
+     12
+     123
+     1234
+     12345
+    
+    */
+    // let i,j;
+    // for(i=1; i<=5; i++){ //5
+    //     for(j=1; j<=i; j++){//5
+    // document.write(j)
+    //     }
+    //     document.write('<br/>')
+    // }
+   
+
+    //5th
+
+    /* 
+    *****
+     **** 
+      ***
+       **
+        *
+    */
+    // for (let i = 1; i <= 5; i++) {
+    //     for (let k = 1; k <= i - 1; k++) {
+    //         document.write('-')
+    //     }
+    //     for (let j = 1; j <= 6 - i; j++) {
+
+    //         document.write('*')
+    //     }
+
+    //     document.write('<br/>')
+    // }
+
+    // 6th 
+
+    /*  
+    *****
+    ****
+    ***
+    **
+    *
+    
+    */
+
+//    for(let i=1; i<=5; i++){
+//     for(let j=1; j<=6-i; j++){
+//         document.write('*')
+//     }
+//     document.write('<br/>')
+//    }
+
+// 7th 
+
+/* 
+    *
+   ***
+  *****
+ *******
+*********   
+*/
+
+// for(let i=1; i<=5; i++){
+//     for(let j=1; j<=5-i; j++){
+//         document.write('-')
+//     }
+//     for(let k=1; k<=2*i-1; k++){
+//         document.write('*')
+//     }
+//     for(let j=1; j<=5-i; j++){
+//         document.write('-')
+//     }
+ 
+//     document.write('<br/>')
+// }
+
+// 8th 
+ /*  
+ *********
+  *******
+   *****
+    ***
+     *
+ 
+ 
+ */
+
+for(let i=1; i<=5; i++){
+    for(let j=1; j<= i-1; j++){
+        document.write('-')
+    }
+    for(let k=1; k<=6-i; k++){
+        document.write('*')
+    }
+    for(let k=1; k<=5-i; k++){
+        document.write('*')
+    }
+    for(let j=1; j<= i-1; j++){
+        document.write('-')
+    }
+    document.write('<br/>')
+}
+</script>
+
+</html>
