@@ -159,17 +159,103 @@
     ***
      *
  
- 
  */
 
+// for(let i=1; i<=5; i++){
+//     for(let j=1; j<= i-1; j++){
+//         document.write('-')
+//     }
+//     for(let k=1; k<=6-i; k++){
+//         document.write('*')
+//     }
+//     for(let k=1; k<=5-i; k++){
+//         document.write('*')
+//     }
+//     for(let j=1; j<= i-1; j++){
+//         document.write('-')
+//     }
+//     document.write('<br/>')
+// }
+
+
+
+// 9th
+/*  
+*********
+ *******
+  *****
+   ***
+    *
+   ***
+  *****
+ *******
+*********   
+
+*/
+
+// for(let i=1; i<=5; i++){
+//     for(let j=1; j<=i-1; j++){
+//         document.write("-")
+//     }
+//     for(let k=1; k<=6-i; k++){
+//         document.write("*")
+//     }                                               
+//     for(let k=1; k<=5-i; k++){
+//         document.write('*')
+//     }
+//     for(let j=1; j<=i-1; j++){
+//         document.write('-')
+//     }
+//     document.write('<br/>')
+// }
+//  for(let m=2; m<=5; m++){
+//     for(let n=1; n<=5-m; n++){
+//         document.write('-')
+//     }
+//     for(let q=1; q<=2*m-1; q++){
+//         document.write('*')
+//     }
+//     for(let n=1; n<=5-m; n++){
+//         document.write('-')
+//     }
+//     document.write('<br/>')
+//  }
+
+
+// 10th 
+
+
+/*  
+    *
+   ***
+  *****
+ *******
+********* 
+ *******
+  *****
+   ***
+    *  
+*/
 for(let i=1; i<=5; i++){
-    for(let j=1; j<= i-1; j++){
+    for(let j=1; j<=5-i; j++){
         document.write('-')
     }
-    for(let k=1; k<=6-i; k++){
+    for(let k = 1; k<=2*i-1; k++){
         document.write('*')
     }
+    for(let j=1; j<=5-i; j++){
+        document.write('-')
+    }
+    document.write('<br/>')
+}
+for(let i=2; i<=5; i++){
+    for(let j=1; j<=i-1; j++){
+        document.write('-')
+    }
     for(let k=1; k<=5-i; k++){
+        document.write('*')
+    }
+    for(let k=1; k<=6-i; k++){
         document.write('*')
     }
     for(let j=1; j<= i-1; j++){
